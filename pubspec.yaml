@@ -1,4 +1,4 @@
-name: fleetcutter_helpers
+name: flutter_misc_helpers
 description: This package contains useful helpers for different things, like strings, platform specific things, toast messages, etc
 version: 5.1.3
 homepage:
