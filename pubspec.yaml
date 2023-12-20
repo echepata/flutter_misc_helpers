@@ -23,7 +23,7 @@ dependencies:
   # JDE: Used to calculate the MD5 hash of a request, so that we can cache it
   crypto: ^3.0.3
 
-  # AVA: This package is used to format dates according to any format, or to specific locales.
+  # JDE: This package is used to format dates according to any format, or to specific locales.
   intl: ^0.18.0
 
 dev_dependencies:
