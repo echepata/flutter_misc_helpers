@@ -1,10 +1,9 @@
-import 'package:fleetcutter_helpers/toast_helper.dart';
+import 'package:flutter_misc_helpers/toast_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 /// @author    Diego
 /// @since     2022-07-27
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 class DatesHelper {
   static bool areInSameDay(DateTime time1, DateTime time2) {

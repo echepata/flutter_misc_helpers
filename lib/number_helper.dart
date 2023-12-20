@@ -3,7 +3,6 @@ import 'package:flutter/foundation.dart';
 
 /// @author    Diego
 /// @since     2022-07-06
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 class NumberHelper {
   static double getRandomNumber(double lowerLimit, double higherLimit) {

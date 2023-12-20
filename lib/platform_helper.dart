@@ -1,12 +1,11 @@
 /// @author    Diego
 /// @since     2022-05-12
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
-import 'package:fleetcutter_helpers/Enums/device_type.dart';
-import 'package:fleetcutter_helpers/Enums/device_screen_type.dart';
+import 'package:flutter_misc_helpers/Enums/device_type.dart';
+import 'package:flutter_misc_helpers/Enums/device_screen_type.dart';
 
 class PlatformInfo {
   static bool isDesktopOS() {
@@ -67,16 +66,20 @@ class PlatformInfo {
     }
     return PlatformType.unknown;
   }
+
+  static bool isTest() {
+    return Platform.environment.containsKey('FLUTTER_TEST');
+  }
 }
 
 DeviceScreenType getDeviceType(MediaQueryData mediaQuery) {
   double area = mediaQuery.size.width * mediaQuery.size.height;
 
-  if (area < 230000 * mediaQuery.textScaleFactor) {
+  if (area < mediaQuery.textScaler.scale(230000)) {
     return DeviceScreenType.smallMobile;
-  } else if (area < 500000 * mediaQuery.textScaleFactor) {
+  } else if (area < mediaQuery.textScaler.scale(500000)) {
     return DeviceScreenType.mobile;
-  } else if (area < 1000000 * mediaQuery.textScaleFactor) {
+  } else if (area < mediaQuery.textScaler.scale(1000000)) {
     return DeviceScreenType.tablet;
   } else {
     return DeviceScreenType.desktop;

@@ -1,8 +1,7 @@
-import 'package:fleetcutter_helpers/Models/location_data.dart';
+import 'package:flutter_misc_helpers/Models/location_data.dart';
 
 /// @author    Diego
 /// @since     2023-01-04
-/// @copyright 2023 Carshare Australia Pty Ltd.
 
 class LocationDataPair {
   final LocationData data1;

@@ -1,9 +1,8 @@
-import 'package:fleetcutter_helpers/Exceptions/url_could_not_be_opened_exception.dart';
+import 'package:flutter_misc_helpers/Exceptions/url_could_not_be_opened_exception.dart';
 import 'package:url_launcher/url_launcher.dart' as url_launcher;
 
 /// @author    Diego
 /// @since     2022-07-08
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 class UrlNavigationHelper {
 

@@ -1,16 +1,15 @@
 import 'dart:math';
-import 'package:fleetcutter_helpers/Exceptions/location_permissions_not_granted_exception.dart';
-import 'package:fleetcutter_helpers/Exceptions/location_service_not_enabled_exception.dart';
-import 'package:fleetcutter_helpers/Exceptions/map_could_not_be_launched_exception.dart';
-import 'package:fleetcutter_helpers/Models/location_data.dart';
-import 'package:fleetcutter_helpers/Models/location_data_pair.dart';
+import 'package:flutter_misc_helpers/Exceptions/location_permissions_not_granted_exception.dart';
+import 'package:flutter_misc_helpers/Exceptions/location_service_not_enabled_exception.dart';
+import 'package:flutter_misc_helpers/Exceptions/map_could_not_be_launched_exception.dart';
+import 'package:flutter_misc_helpers/Models/location_data.dart';
+import 'package:flutter_misc_helpers/Models/location_data_pair.dart';
 import 'package:flutter/foundation.dart';
 import 'package:location/location.dart' as location_package;
 import 'package:url_launcher/url_launcher.dart';
 
 /// @author    Diego
 /// @since     2022-06-30
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 class LocationHelpers {
   /// Throws [LocationServiceNotEnabledException] if the device does not support

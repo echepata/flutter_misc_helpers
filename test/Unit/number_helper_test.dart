@@ -1,9 +1,8 @@
 /// @author    Diego
 /// @since     2022-07-06
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 
-import 'package:fleetcutter_helpers/number_helper.dart';
+import 'package:flutter_misc_helpers/number_helper.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

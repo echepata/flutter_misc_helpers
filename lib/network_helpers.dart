@@ -2,7 +2,6 @@ import 'dart:io';
 
 /// @author    Diego
 /// @since     2022-08-03
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 class NetworkHelpers {
   static Future<bool> hasNetwork() async {

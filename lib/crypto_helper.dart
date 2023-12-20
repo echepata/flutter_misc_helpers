@@ -6,7 +6,6 @@ import 'package:crypto/crypto.dart';
 
 /// @author    Diego
 /// @since     2022-12-14
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 class CryptoHelper {
   /// [string] data being hashed

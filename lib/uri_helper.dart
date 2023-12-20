@@ -1,6 +1,5 @@
 /// @author    Diego
 /// @since     2022-12-14
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 class UriHelpers {
   static Uri uriWithQueryParams({

@@ -2,7 +2,6 @@ import 'package:location/location.dart' as location_package;
 
 /// @author    Diego
 /// @since     2022-06-30
-/// @copyright 2022 Carshare Australia Pty Ltd.
 
 class LocationData {
   final double latitude;
