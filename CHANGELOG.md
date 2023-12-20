@@ -1,3 +1,5 @@
+## Version 6.0.0 - 2023-12-20
+* Update minimum SDK version required to run this package
 ## Version 5.1.3 - 2023-11-20
 * Fixed some issues with the location helpers when running on desktop + fix IDE issues and update linter
 ## Version 5.1.2 - 2023-11-15
